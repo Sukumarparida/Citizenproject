@@ -1,0 +1,67 @@
+.role-tabs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 20px;
+}
+
+
+.tabs {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 320px;
+
+  background: #f3f6fb;
+  padding: 6px;
+  border-radius: 14px;
+}
+.tabs button {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 10px 0;
+
+  font-size: 13px;
+  font-weight: 600;
+  color: #555;
+
+  cursor: pointer;
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+
+.tabs button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.tabs button.active {
+  color: #fff;
+}
+
+
+.tabs button.active {
+  color: #fff;
+}
+
+/* SLIDER */
+
+
+.slider {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+
+  width: calc(33.333% - 6px);
+  height: calc(100% - 12px);
+
+  background: linear-gradient(135deg, #2f80ed, #1c5fd4);
+  border-radius: 14px;
+
+  box-shadow:
+    0 6px 18px rgba(47, 128, 237, 0.45),
+    0 0 12px rgba(47, 128, 237, 0.6);
+
+  transition: transform 0.35s ease;
+}
