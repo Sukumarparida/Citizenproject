@@ -1,4 +1,4 @@
-import RoleTabs from "../components/RoleTabs";
+import RoleTabs from "../components/Roletabs";
 import Input from "../components/Input";
 import Button from "../components/Button";
 import SocialLogin from "../components/SocialLogin";
